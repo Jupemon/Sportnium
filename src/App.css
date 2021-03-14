@@ -2,30 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  position: absolute;
+  height: auto;
+  width: -webkit-fill-available;
+  src: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1662,h_900/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png);
 }
 
-.App-link {
-  color: #61dafb;
+.landing {
+  margin: 5%;
 }
 
 @keyframes App-logo-spin {
